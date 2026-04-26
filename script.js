@@ -111,7 +111,7 @@ LAYERS.forEach((layer, i) => {
         el.style.cssText = `z-index: ${idx + 1}; transform: translateX(-200px) scale(1); filter: brightness(1); opacity: 0.04; transition: filter 0.4s ease, opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);`;
         });
         btns.forEach(b => { b.classList.remove('highlighted'); b.classList.add('dimmed'); });
-        img.style.cssText = `z-index: 200; transform: translateX(200px) scale(1.75); filter: brightness(1); opacity: 1; transition: filter 0.4s ease, opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);`;
+        img.style.cssText = `z-index: 200; transform: translateX(200px) scale(1.5); filter: brightness(1); opacity: 1; transition: filter 0.4s ease, opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);`;
         img.classList.add('active');
         btn.classList.remove('dimmed');
         btn.classList.add('highlighted');

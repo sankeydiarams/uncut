@@ -53,7 +53,7 @@ body {
   letter-spacing: 0.01em;
   color: #1a1a2e;
   text-align: center;
-  margin: 40px 0 0;
+  margin: 20px 0 0;
 }
 
 .sub-title {
@@ -125,8 +125,8 @@ body {
   border: none;
   cursor: pointer;
   text-align: left;
-  padding: 1px 0;
-  line-height: 1.6;
+  padding: 0px 0;
+  line-height: 1.5;
   transition: opacity 0.3s ease;
   white-space: nowrap;
 }
@@ -158,9 +158,9 @@ body {
 
 #stage {
   position: relative;
-  width: 510px;
-  height: 840px;
-  margin-top: 300px;
+  width: 340px;
+  height: 560px;
+  margin-top: 100px;
 }
 
 .layer {
@@ -180,7 +180,7 @@ body {
 
 .layer.active {
   filter: brightness(1);
-  transform: translateX(200px) scale(1.75);
+  transform: translateX(200px) scale(1.5);
   z-index: 200 !important;
 }
 
@@ -192,9 +192,9 @@ body {
 
 #readout {
   font-family: 'Nari';
-  font-size: 48px;
+  font-size: 32px;
   font-variation-settings: 'wght' 150, 'wdth' 525; 
-  color: #1a1a2e;
+  color: #010145;
   text-align: center;
   min-height: 20px;
   margin-top: 0px;
@@ -202,7 +202,7 @@ body {
   position: absolute;
   top: 300px;
   opacity: 70%;
-  transform: translateX(800px); /* ← add this */
+  transform: translateX(200px); /* ← add this */
   transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);  /* ← smooth it */
 }
 
@@ -243,7 +243,7 @@ body {
 .dataset-credit a {
   color: #1a1a2e;
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 1px;
 }
 
 .dataset-credit a:hover {
